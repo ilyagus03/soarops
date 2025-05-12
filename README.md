@@ -10,6 +10,7 @@ cd frontend,
 npm start.
 
 (Admin passcode = 123456789)
+(Sample Cast ID = 482529)
 **Home**
 ![image](https://github.com/user-attachments/assets/b188649d-9a5e-4a54-907e-7c6d9e1ac446)
 
