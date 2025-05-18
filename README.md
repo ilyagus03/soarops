@@ -1,4 +1,4 @@
-# SoarOps
+# SoarOps ♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋
 
 ## Attraction Operations Management System based on Disney's Soarin.
 
@@ -25,14 +25,13 @@ SoarOps is a comprehensive operations management system for theme park attractio
 
 ### Prerequisites
 
-- Docker and Docker Compose installed on your system
-- Git for cloning the repository
+- nothin ⛄⛄⛄⛄
 
 ### Installation and Running
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone and shiii
    cd soarops
    ```
 
@@ -56,63 +55,91 @@ SoarOps is a comprehensive operations management system for theme park attractio
 ### Project Structure
 
 ```
-soarops/
-├── backend/              # Flask API
-│   ├── app.py            # Main application file
-│   ├── Dockerfile        # Backend container configuration
-│   └── requirements.txt  # Python dependencies
-├── database/             # Database scripts
-│   ├── schema.sql        # Database schema
-│   └── seed.sql          # Sample data
-├── frontend/             # React application
-│   ├── public/           # Static assets
-│   ├── src/              # Source code
-│   └── Dockerfile        # Frontend container configuration
-├── nginx/                # Nginx configuration
-│   └── nginx.conf        # Reverse proxy setup
-├── docker-compose.yml    # Service orchestration
-└── start.sh              # Startup script
+.
+├── README.md
+├── backend
+│   ├── BALLER_ROUTES
+│   │   ├── anal.py
+│   │   ├── incidents.py
+│   │   ├── maintenance.py
+│   │   ├── operations.py
+│   │   ├── ride_cycles.py
+│   │   ├── staff.py
+│   │   └── theaters.py
+│   ├── DB_MODELLLLLLLSSS
+│   │   ├── __init__.py
+│   │   ├── all_models.py
+│   │   ├── incident.py
+│   │   ├── maintenance_log.py
+│   │   ├── operation_day.py
+│   │   ├── ride_cycle.py
+│   │   ├── staff_assignment.py
+│   │   ├── staff_member.py
+│   │   ├── theater.py
+│   │   └── weather.py
+│   ├── Dockerfile.prod
+│   ├── app.py
+│   ├── requirements.txt
+│   └── services
+│       └── wait_time_predictor.py
+├── database
+│   ├── schema.sql
+│   └── seed.sql
+├── docker-compose.yml
+├── frontend
+│   ├── Dockerfile.prod
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   ├── manifest.json
+│   │   └── site.webmanifest
+│   └── src
+│       ├── App.js
+│       ├── Demo.js
+│       ├── Main.js
+│       ├── components
+│       │   ├── CapacityChart.js
+│       │   ├── Dashboard.js
+│       │   ├── ErrorBoundary.js
+│       │   ├── Login.js
+│       │   ├── MaintenanceLog.js
+│       │   ├── NavBARS.js
+│       │   ├── StaffingTable.js
+│       │   └── WaitTimeChart.js
+│       ├── contexts
+│       │   └── AuthContext.js
+│       ├── index.css
+│       ├── index.js
+│       ├── services
+│       │   └── api.js
+│       └── utils
+│           └── mockData.js
+├── nginx
+│   └── nginx.conf
+└── start.sh
+
+14 directories, 54 files
+                          
 ```
-
-### Manual Setup
-
-If you prefer to run the services individually:
-
-1. **Database**:
-   ```
-   docker-compose up -d postgres
-   ```
-
-2. **Backend**:
-   ```
-   cd backend
-   pip install -r requirements.txt
-   flask run --host=0.0.0.0
-   ```
-
-3. **Frontend**:
-   ```
-   cd frontend
-   npm install
-   npm start
-   ```
 
 ## Features
 
-- Theater status monitoring
-- Cast member assignment and rotation
-- Wait time tracking and predictions
-- Maintenance scheduling and logging
-- Incident reporting and resolution tracking
-- Staff efficiency metrics
-
+- idk
+- disney stats or something?
+- ♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋♋
 ## Screenshots
 
 **Home**
-![Home](https://github.com/user-attachments/assets/b188649d-9a5e-4a54-907e-7c6d9e1ac446)
+![Rigby](https://raw.githubusercontent.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png
 
 **Cast Access**
-![Cast Access 1](https://github.com/user-attachments/assets/716e5cdf-5968-4d19-a33e-4fce5c9b3e79)
+![Rigby](https://raw.githubusercontent.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png
 ![Cast Access 2](https://github.com/user-attachments/assets/c5a68d15-bbcc-4e33-8aaa-7ae329f0bbcd)
 
 **Leadership Access**

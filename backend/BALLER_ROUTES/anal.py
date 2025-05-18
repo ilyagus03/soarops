@@ -71,7 +71,14 @@ def get_wait_time_analytics():
     
     if not operation_day_id:
         return jsonify({"error": "operation_day_id is required"}), 400
+        
+    if operation_day_id.isdigit():
+        from DB_MODELLLLLLLSSS.all_models import OperationDay
+        op_day = OperationDay.query.order_by(OperationDay.date).offset(int(operation_day_id)-1).first()
+        if op_day:
+            operation_day_id = op_day.id 
     
+
     ride_cycles = RideCycle.query.filter_by(operation_day_id=operation_day_id).filter(
         RideCycle.wait_time_posted.isnot(None),
         RideCycle.wait_time_actual.isnot(None)

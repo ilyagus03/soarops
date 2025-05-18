@@ -9,15 +9,12 @@ function WaitTimeChart({ operationDayId, height = 300 }) {
 
   useEffect(() => {
     const fetchWaitTimeData = async () => {
-      if (!operationDayId) {
-        setWaitTimeData(mockWaitTimeData);
-        setLoading(false);
-        return;
-      }
-
       try {
         setLoading(true);
+        console.log("Fetching wait time data for operation day ID:", operationDayId);
+        
         const response = await api.get(`/anal/wait-times?operation_day_id=${operationDayId}`);
+        console.log("Response received:", response);
         
         if (response.data && response.data.hourly_wait_times) {
           const chartData = response.data.hourly_wait_times.map(item => ({
@@ -33,14 +30,15 @@ function WaitTimeChart({ operationDayId, height = 300 }) {
         
         setError(null);
       } catch (err) {
-        console.error('Error fetching wait time data:', err);
-        setError('Failed to load wait time data');
+        console.error("Error details:", err.response || err);
+        setError(`Failed to load wait time data: ${err.message}`);
+        // Still show mock data for demo purposes
         setWaitTimeData(mockWaitTimeData);
       } finally {
         setLoading(false);
       }
     };
-
+  
     fetchWaitTimeData();
   }, [operationDayId]);
 
