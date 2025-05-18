@@ -2,7 +2,7 @@
 
 ## Attraction Operations Management System based on Disney's Soarin.
 
-![Rigby](https://raw.githubusercontent.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png
+![Rigby](https://github.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png?raw=true)
 
 ## Overview
 ### speedrunning rando heads repos
@@ -136,12 +136,12 @@ SoarOps is a comprehensive operations management system for theme park attractio
 ## Screenshots
 
 **Home**
-![Rigby](https://raw.githubusercontent.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png
+![Rigby](https://github.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png?raw=true)
 
 **Cast Access**
-![Rigby](https://raw.githubusercontent.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png
-![Cast Access 2](https://github.com/user-attachments/assets/c5a68d15-bbcc-4e33-8aaa-7ae329f0bbcd)
+![Rigby](https://github.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png?raw=true)
+![Rigby](https://github.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png?raw=true)
 
 **Leadership Access**
-![Leadership 1](https://github.com/user-attachments/assets/2c58eebc-9390-4de6-9610-8b45e23a21d0)
-![Leadership 2](https://github.com/user-attachments/assets/8aeaf1d0-f70b-42eb-aa3c-4512f8d1605e)
+![Rigby](https://github.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png?raw=true)
+![Rigby](https://github.com/CarterPerez-dev/angela-cli/blob/main/MD/assets/rigby.png?raw=true)
