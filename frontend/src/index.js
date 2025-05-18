@@ -1,8 +1,19 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Demo from './Demo';
+import './index.css';
+import App from './App';
+import ErrorBoundary from './components/ErrorBoundary';
 
-// React 18 way
+// React 18 way of rendering --- trash
 const container = document.getElementById('root');
 const root = createRoot(container);
-root.render(<Demo />);
+
+root.render(
+  <React.StrictMode>
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
+  </React.StrictMode>
+);
+
+

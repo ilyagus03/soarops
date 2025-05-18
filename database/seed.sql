@@ -214,7 +214,7 @@ INSERT INTO maintenance_logs (
   );
 
 -- Add afternoon ride cycles (with higher attendance and wait times)
-DO $
+DO $$
 DECLARE
   cycle_id uuid;
   cycle_start timestamp;
@@ -328,10 +328,10 @@ BEGIN
       END IF;
     END LOOP;
   END LOOP;
-END $;
+END $$;
 
 -- Add evening ride cycles (declining attendance and wait times)
-DO $
+DO $$
 DECLARE
   cycle_id uuid;
   cycle_start timestamp;
@@ -387,4 +387,4 @@ BEGIN
       );
     END LOOP;
   END LOOP;
-END $;
+END $$;
